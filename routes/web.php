@@ -12,7 +12,7 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('onlineshop.home');
 });
 
 Route::group(['prefix' => 'admin'], function () {
